@@ -1,12 +1,12 @@
 .sidebar {
-    width: 130px;
-    position: fixed;
+    width: 200px;
     z-index: 1;
-    top: 20px;
-    left: 10px;
+    float: top;
     background: #eee;
     overflow-x: hidden;
     padding: 8px 0;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .sidebar a {
@@ -22,8 +22,7 @@
 }
 
 .main {
-    margin-left: 140px; /* Same width as the sidebar + left position in px */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 210px;
     padding: 0px 10px;
 }
 
