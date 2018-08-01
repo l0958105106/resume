@@ -26,11 +26,6 @@
     padding: 0px 10px;
 }
 
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-}
-
 @media (max-width: 800px) {
     .sidebar {
         display:none !important;
